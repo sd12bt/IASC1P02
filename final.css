@@ -1,0 +1,237 @@
+body{
+background-color:#4007BB;
+}
+#header{
+  letter-spacing: 2px;
+  color: #C6B4F6;
+  text-shadow:  2px 2px 4px #000000;
+  font-size: 25px;
+  text-align: center;
+  font-family: impact,serif,sans-serif;
+  display: block;
+  position:relative;
+  right:140px;
+  margin: 20px auto;
+  padding:30px 0% 30px 0%;
+  left:0px;
+  float left;
+  background-color: #260471;
+}
+.color-link{
+  color: #C6B4F6;
+  text-decoration: none;
+}
+
+.link-border{
+  color:#C6B4F6;
+  border: 2px solid;
+  text-decoration: none;
+}
+
+.color-arrows{
+  color: #06A9D7;
+  text-decoration: none;
+}
+#firstPic{
+  display: block;
+  position:relative ;
+  top: 0px;bottom: 0px; right: 0px; left: 60px;
+  margin: auto;
+}
+
+#spacing {
+    word-spacing: 30px;
+}
+
+#box1{
+  color: #C6B4F6;
+  display: block;
+  position:relative;
+  right:140px;
+  margin: 20px auto;
+  padding:20px 0% 20px 0%;
+  left:0px;
+  float left;
+  background-color: #260471;
+}
+.space{
+  text-align: center;
+  white-space: pre;
+}
+#box2{
+  color: #C6B4F6;
+  display: block;
+  position:relative;
+  right:140px;
+  margin: 20px auto;
+  padding:20px 0% 20px 0%;
+  left:0px;
+  float left;
+  background-color: #260471;
+  font-size:150%
+}
+
+#box3{
+  color: #C6B4F6;
+  display: block;
+  position:relative;
+  right:140px;
+  margin: 20px auto;
+  padding:20px 0% 20px 0%;
+  left:0px;
+  float left;
+  background-color: #260471;
+  font-size: 125%;
+}
+
+
+
+#faceBox{
+  text-align: center;
+  display: block;
+  position: relative;
+  width:500px;
+  height:400px;
+  margin:20px auto;
+  left:60px;
+  float: left;
+  font-size: 125%;
+}
+#instagramBox{
+  text-align: center;
+  display: block;
+  position: relative;
+  width:500px;
+  height:400px;
+  margin:20px auto;
+  left:340px;
+  float:left;
+  font-size: 125%;
+}
+
+#tripadvisorBox{
+
+  text-align: center;
+  position: relative;
+  width:500px;
+  height:400px;
+  margin:40px auto;
+  left:340px;
+  float:left;
+  font-size: 125%;
+}
+#twitterBox{
+  text-align: center;
+  position: relative;
+  width:500px;
+  height:400px;
+  margin:40px auto;
+  left: 60px;
+  float: left;
+  font-size: 125%;
+}
+#footer{
+  letter-spacing: 2px;
+  font-family: arial,serif,sans-serif;
+  color: #C6B4F6;
+  display: block;
+  position:relative;
+  right:140px;
+  margin: 20px auto;
+  padding:20px 0% 20px 0%;
+  left:0px;
+  float left;
+  background-color: #260471;
+  clear: both;
+}
+.centerText{
+  text-align: center;
+}
+.spacing{
+  margin: 70px;
+  float: left;
+  width: 180px;
+}
+
+.textCol{
+  color: #1B0850;
+  font-size: 125%;
+  font-weight: bold;
+}
+.textSize{
+  color: #C6B4F6;
+  font-size: 125%;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+.content{
+  color: #1B0850;
+  font-weight: bold;
+  width:1200px;
+  padding: 0;
+  overflow: hidden;
+}
+.content img{
+    float:left;
+    margin: 0px 30px 10px 10px;
+
+}
+/*Reference: The below code was obtained from...w3schools.com>Top Tooltip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    height: auto;
+    background-color: #1B0850;
+    color: #C6B4F6;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*Reference: The above code was obtained from...w3schools.com>Top Tooltip*/
+
+/*Reference: The below code was obtained from...https://codepen.io/bephf/pen/ogNBYW*/
+.select-style {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    width: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+/*Referene The above code was obtained from...https://codepen.io/bephf/pen/ogNBYW*/

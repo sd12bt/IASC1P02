@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Final Web Page Project</title>
+		<link rel="stylesheet" type="text/css" href="final.css"/>
+		<script type="text/javascript" src="page1.js"></script>
+
+				<!--jQuery References-->
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+		<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+
+		<!--Theme-->
+		<link href="http://cdn.wijmo.com/themes/aristo/jquery-wijmo.css" rel="stylesheet" type="text/css" />
+
+		<!--Wijmo Widgets CSS-->
+		<link href="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.css" rel="stylesheet" type="text/css" />
+
+		<!--Wijmo Widgets JavaScript-->
+		<script src="http://cdn.wijmo.com/jquery.wijmo-open.all.3.20161.90.min.js" type="text/javascript"></script>
+		<script src="http://cdn.wijmo.com/jquery.wijmo-pro.all.3.20161.90.min.js" type="text/javascript"></script>
+		<script src="http://cdn.wijmo.com/interop/wijmo.data.ajax.3.20161.90.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+
+		$(document).ready(function () {
+		    $("#textbox1").wijinputdate(
+		        {
+		            showTrigger: true
+
+		    });
+		});
+		</script>
+	</head>
+
+  <body>
+		<div id="header">
+			<h1>Telhol</h1>
+			<a href="finalproject.html" style="float:left" class="color-link">Home</a>
+		</div>
+
+			<div class="textCol">
+				<h2>PAYMENT TERMS</h2>
+				<p>Room prices shown on previous page excluded tax. A 15% tax will be added to all room prices and included in the final cost. If booking online you can cancel up to 24 hours before arrival date. A cancellation link will be provided in the confirmation email sent upon booking.</p>
+				<h2>BOOKING FORM</h2>
+				<p>Check-in Date</p><input type="text" id="textbox1"/>
+				<br/>
+
+				<form action="">
+
+					<p>Specify Number of Nights for Booking</p>
+					<input type="text" id="num1" value="Enter Nights of Stay"/>
+					<br/>
+					<p>Select Room Type</p>
+					<button type = "button" onclick="Queen()">Queen Suite</button>
+					<button type = "button" onclick="QueenView()">Queen Suite with View</button>
+					<button type = "button" onclick="Bunk()">Queen Suite with Double Bunk Beds</button>
+					<button type = "button" onclick="KingSuite()">King Suite</button>
+					<br/>
+					<p id="output" style="color:#C6B4F6"></p>
+
+					<p>Payment Option (Note card will be charged price specified above based on room preference and length of stay)</p>
+
+								<!-- Reference: below code modified from...*https://codepen.io/bephf/pen/ogNBYW*/-->
+								<p class="select-style">
+									<select>
+										<option value="Visa">Visa</option>
+										<option value="Master Card">Master Card</option>
+										<option value="American Express">American Express</option>
+									</select>
+								</p>
+								<!--Reference: above code modified from...*https://codepen.io/bephf/pen/ogNBYW*/-->
+
+					<p>Card Number (no spaces)</p>
+								<input type="text" id="num2" value="Enter Card Number"/>
+								<br/>
+					<p>Name on Card (Enter name as shown on card)</p>
+					<input type="text" id="num3" value="Enter Name"/>
+
+					<p>Expiry Date and CSV (Example: June 2020 should be entered as 0620)</p>
+					<input type="text" id="num4" value="Expiry Date"/>
+					<input type="text" id="num5" value="CSV"/>
+					<br/>
+					<p>Enter email address (Note this email will be used to manage your booking)</p>
+					<input type="text" id="num6" value="Enter email"/>
+					<br/>
+					<br/>
+					<button type="button" onclick="this.form.reset()">Reset</button>
+					<br/>
+					<p>Submit form by clicking the link below. Once submitted a confirmation email will be sent to the email address provided. The confirmation email will contain a link to use to cancel your booking. Please ensure cancellations are made 24 hours in advance to avoid cancellation fees. A link will also be provided if any changes to the reservation are required after submitting this form. Any questions or concerns can be directed to Customer Service: 1-800-666-9969  customerservice@telhol.com </p>
+					<a href="page4.html" style="float:left" class="link-border">SUBMIT FORM</a>
+					<br/>
+					<br/>
+				</form>
+			</div>
+
+			<div id="footer">
+			<!-- Reference: The below code was obtained from...w3schools.com>Top Tooltip -->
+			<div class="tooltip">Contact Us		|
+				<span class="tooltiptext">1-800-666-9969  customerservice@telhol.com</span>
+			</div>
+			<div class="tooltip">Terms and conditions		|
+			<span class="tooltiptext">Cancellations of bookings made less than 24 hours in advance are subject to cancellation fees. Telhol waives all responsiblity for any items stolen from the hotel room or for any injury to the guest during the time of stay. </span>
+			</div>
+			<div class="tooltip">FAQs		|
+			<span class="tooltiptext"> Q: CAN I REQUEST AN UPGRADE UPON ARRIVAL? Ans: All upgrades are subject to availability. Q: DOES TELHOL OFFER PARKING? Ans: Yes parking is available at an additional fee.</span>
+			<!-- Reference: The above code was obtained from...w3schools.com>Top Tooltip -->
+			</div>
+			<br/>
+			<br/>
+			<span>2016 Telhol. All rights reserved. All hotels are independently owned and operated.</span>
+
+			</div>
+
+			</body>
+
+
+			</html>
